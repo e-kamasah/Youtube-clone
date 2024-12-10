@@ -1,0 +1,79 @@
+.thumbnail-photo{
+    width: 370px;
+    border-radius: 10px;
+    border: none;
+}
+
+.verified{
+    width: 12px;
+    height: 10px;
+    object-fit: cover;
+   
+}
+
+.video-artiste{
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+    
+}
+
+.artiste-name{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.name-format{
+    color: #606060
+}
+
+
+
+.content-card{
+    width: 370px;
+    display: grid;
+    column-gap: 5px;
+    grid-template-columns: 30px 1fr 20px;
+    padding-top: 8px;
+    
+   
+}
+
+.video-card{
+    width: 370px;
+    
+   
+     
+    
+}
+
+
+    
+.main-content-container{
+    padding-top: 122px;
+    padding-left: 93px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    padding-bottom: 10px;
+    
+}
+
+
+.video-duration{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    position: absolute;
+    padding: 3px;
+    right: 5px;
+    bottom: 15px;
+    border-radius: 5px;
+    font-size: 13px;
+
+   
+   
+}
+
+.thumbnail{
+    position: relative;
+}
